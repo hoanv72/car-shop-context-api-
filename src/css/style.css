@@ -1,0 +1,11 @@
+
+.cartItem{
+  height: 30px;
+  width:100%;
+}
+.cartItem-img{
+  height: 50px;
+  width: 70px;
+  padding: 10px;
+   border-radius: 50%;
+}
