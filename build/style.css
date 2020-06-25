@@ -4,7 +4,80 @@ body{
 	margin:0%;
 	font-family: 'Lato'
 }
+.nab{
+	line-height: 50px;
+}
+.navbar-brand{
+	font-family: 'Pacifico';
+	color: lightcoral !important;
+	font-size: 35px;
+}
+.navbar-brand span{
+	color:#00e8e8;
+}
+.nav-link{
+	font-size: 19px;
+	margin: 15px;
+	color:black;
+	font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+	color: #00e8e8 !important;
+}
+.site-content{
+	background-image: url(642244cfaa2a077dc5fb5bdcab0da166.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
 
+.site-title, .site-desc{
+	color: grey;
+	font-family: 'Righteous';
+}
+.site-title{
+	margin-top: 30%;
+
+	font-size: 50px;
+}
+.site-desc{
+	font-size: 14px;
+	padding-left: 15%;
+}
+.site-btn1{
+	margin-left: 20%;
+	background-color: black;
+	color:white;
+}
+.site-btn2{
+	background-color: white;
+}
+.site-btn1, .site-btn2{
+	margin-top: 5%;
+	margin-bottom: 91%;
+}
+
+.product-list{
+	margin-top: 5%;
+	padding: 0% 5%;
+}
+.product-list .product{
+	margin-bottom: 5%;
+	transition: .5s ease;
+}
+.product-list .product:hover{
+	box-shadow: 4px 4px rgba(0, 0, 0, .2);
+	outline: none;
+}
+/*Cart*/
+
+.cart-item{
+	width: 50%;
+	height: 100px;
+}
+table tr{
+	width: 50%;
+	height: 100px;
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

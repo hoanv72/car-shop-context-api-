@@ -6,7 +6,7 @@ export class Item extends Component {
 		const { id, title, img, price, brand, info, inCart } = this.props.product;
 		return(
 		<div className="card">
-			<img src={img} className="card-img-top" alt="..."/>
+			<img src={img} className="card-img-top" style={{height: '200px'}} alt="..."/>
 			<div className="card-body">
 				<h5 className="card-title"> {brand} {title} </h5>
 				<p className="card-text"> {info}</p>

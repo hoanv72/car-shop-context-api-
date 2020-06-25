@@ -90,16 +90,6 @@ export class MyProvider extends Component {
 				info: 'this is a good car in middle class ',
 				inCart: false,
 				count: 1
-			},
-			{
-				id: 9,
-				title: 'S90',
-				img: 'public/img/car9.jpg',
-				price: 10,
-				brand: 'Volvo',
-				info: 'this is a good car in middle class ',
-				inCart: false,
-				count: 1
 			}
 			],
 			productDetail: [

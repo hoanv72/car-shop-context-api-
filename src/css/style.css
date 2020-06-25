@@ -59,4 +59,15 @@ body{
 
 .product-list{
 	margin-top: 5%;
+	padding: 0% 5%;
 }
+.product-list .product{
+	margin-bottom: 5%;
+	transition: .5s ease;
+}
+.product-list .product:hover{
+	box-shadow: 4px 4px rgba(0, 0, 0, .2);
+	outline: none;
+}
+/*Cart*/
+

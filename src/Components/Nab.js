@@ -25,12 +25,12 @@ export class Nab extends Component {
 			    <ul className="navbar-nav mr-auto">	
 			    	<li className="nav-link active ml-3">Home</li>		    				  
 			      <li className="nav-link active ml-3">  
-			      	<NavLink exact to="/" activeStyle={{fontSize:"19px",color: "black", margin:"15px", fontFamily:"Roboto Condensed"}}> Product </NavLink>
+			      	<NavLink exact to="/" activeStyle={{fontSize:"19px", color: "black", margin:"15px", fontFamily:"Roboto Condensed"}}> Product </NavLink>
 			      </li>
 			      <li className="nav-link active ml-3">  
 			      	<MyContext.Consumer>
 			      		{  (value) => {
-			      			return <NavLink to="/cart" activeStyle={{fontSize:"19px",color: "black", margin:"15px", fontFamily:"Roboto Condensed"}}> Cart({value.Cart.length}) </NavLink>
+			      			return <NavLink to="/cart" activeStyle={{fontSize:"19px", color: "black", margin:"15px", fontFamily:"Roboto Condensed"}}> Cart({value.Cart.length}) </NavLink>
 			      		}}
 			      	</MyContext.Consumer>
 

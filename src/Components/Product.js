@@ -10,8 +10,8 @@ export class Product extends Component {
 				<MyContext.Consumer>
 					{ (value) => { 
 						 return value.dataProduct.map( product => {
-						 	return 	<div className="col-3">
-						 		  		<Item key={product.id} product={product} />
+						 	return 	<div className="col-3 product" key={product.id}>
+						 		  		<Item  product={product} />
 						 			</div>
 						 		
 						 })

@@ -13,11 +13,11 @@ export class Cart extends Component {
 				<MyContext.Consumer>
 					{ (value) => {
 						return value.Cart.map( car => {
-							return 	<tr className="cartItem">
-										<td key={car.id} className="cartItem-img" >
+							return 	<tr className="cart-item">
+										<td key={car.id} className="cart-item-img" >
 											<img src={car.img}  />
 										</td>
-										<td className="cartItem-title">
+										<td className="cart-item-title">
 											<p>{car.brand} {car.title} </p>
 										</td>
 										<td>
