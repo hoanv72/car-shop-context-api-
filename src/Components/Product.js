@@ -6,7 +6,7 @@ export class Product extends Component {
 	render() {
 		return (
 			<div className="container-fluid">
-				<div className="row" >
+				<div className="row product-list">
 				<MyContext.Consumer>
 					{ (value) => { 
 						 return value.dataProduct.map( product => {

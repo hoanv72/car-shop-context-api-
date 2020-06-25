@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {MyContext} from './MyProvider';
-import '../css/Cart.css';
 export class Cart extends Component {
 	render() {
 		return(

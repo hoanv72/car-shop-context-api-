@@ -1,11 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Pacifico&family=Righteous&family=Roboto:wght@100;300&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
 
-.cartItem{
-  height: 30px;
-  width:100%;
+body{
+	padding:0%;
+	margin:0%;
+	font-family: 'Lato'
 }
-.cartItem-img{
-  height: 50px;
-  width: 70px;
-  padding: 10px;
-   border-radius: 50%;
+.nab{
+	line-height: 50px;
+}
+.navbar-brand{
+	font-family: 'Pacifico';
+	color: lightcoral !important;
+	font-size: 35px;
+}
+.navbar-brand span{
+	color:#00e8e8;
+}
+.nav-link{
+	font-size: 19px;
+	margin: 15px;
+	color:black;
+	font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+	color: #00e8e8 !important;
+}
+.site-content{
+	background-image: url('../../public/img/banner.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.site-title, .site-desc{
+	color: grey;
+	font-family: 'Righteous';
+}
+.site-title{
+	margin-top: 30%;
+
+	font-size: 50px;
+}
+.site-desc{
+	font-size: 14px;
+	padding-left: 15%;
+}
+.site-btn1{
+	margin-left: 20%;
+	background-color: black;
+	color:white;
+}
+.site-btn2{
+	background-color: white;
+}
+.site-btn1, .site-btn2{
+	margin-top: 5%;
+	margin-bottom: 91%;
+}
+
+.product-list{
+	margin-top: 5%;
 }
