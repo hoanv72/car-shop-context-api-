@@ -3,7 +3,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
+  NavLink,
+  Outlet,
+  useParams
 } from "react-router-dom";
 import {MyContext} from './MyProvider';
 import Product from './Product';
@@ -61,8 +63,12 @@ export class Nab extends Component {
 		</div>
 
 				<Switch>
-					<Route  path="/" exact component={Product} /> 
-					<Route path="/cart" component={Cart} />
+					<Route  path="/" exact > 
+						<Product/>
+					</Route>
+					<Route path="/cart">
+						<Cart />
+					</Route>
 				</Switch>
 
 			</div>

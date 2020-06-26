@@ -9,7 +9,7 @@ module.exports = {
   },
   output : {
     path : path.join(__dirname, "build"),
-    filename : "[name].js"
+    filename : "[name].js",
   },
 
   module : {
@@ -30,6 +30,9 @@ module.exports = {
           test : /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.woff2$|\.eot$|\.ttf$|\.wav$|\.mp3$|\.ico$/
         }
     ]
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins : [
     new HtmlwebPackPlugin({template : './src/index.html'}),
